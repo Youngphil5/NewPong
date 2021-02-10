@@ -21,11 +21,11 @@ public class BottomWall : MonoBehaviour
     {
         if (other.gameObject.tag == "RightPlayer")
         {
-            other.gameObject.transform.Rotate(Vector3.forward, 245);
+            other.gameObject.transform.Rotate(Vector3.forward, 270);
         }
         if (other.gameObject.tag == "LeftPlayer")
         {
-            other.gameObject.transform.Rotate(Vector3.forward, 115);
+            other.gameObject.transform.Rotate(Vector3.forward, 90);
         }
 
         other.gameObject.tag = tag;
